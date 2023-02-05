@@ -1,0 +1,43 @@
+{
+  "scripts": {
+    "format": "prettier-eslint \"**/*.{ts,tsx}\" --write",
+    "format:test": "prettier-eslint \"**/*.{ts,tsx}\" --list-different"
+  },
+  "dependencies": {
+    "expo": "~47.0.13",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@expo/metro-config": "^0.5.1",
+    "@expo/webpack-config": "^0.17.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/react": "~18.0.24",
+    "@types/react-native": "~0.70.6",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.46.1",
+    "babel-loader": "^8.2.2",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-babel-module": "^5.3.1",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-newline-destructuring": "^1.1.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-native": "^4.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.0",
+    "prettier-eslint": "^15.0.1",
+    "prettier-eslint-cli": "^7.1.0",
+    "typescript": "^4.6.3"
+  },
+  "private": true,
+  "name": "prettier-eslint-vscode-sample",
+  "version": "0.0.1"
+}

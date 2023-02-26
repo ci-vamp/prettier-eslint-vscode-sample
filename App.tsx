@@ -1,9 +1,11 @@
 import * as React from 'react';
 import { View } from 'react-native';
 import { useState } from 'react';
+import useExample from '@hooks/exampleHook';
 
 const App: React.FC = (props) => {
   const { link, logWatch, isLoading, oneMore, andAnother } = props;
+  const { state, doSomething } = useExample();
 
   const a = [
     'a',
